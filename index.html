@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Eye</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <style>
+        
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">WELCOME!!</h1>
+    <div class="row">
+        <div class="column">
+          <a class="card-link" href="keyboard.html">
+            <div class="card">
+              <img class="img-responsive" src="assets/images/keyboard.png" />
+              <h3>Keyboard</h3>
+            </div>
+          </a>
+        </div>
+      
+        <div class="column">
+          <a class="card-link" href="food.html">
+            <div class="card">
+                <img class="img-responsive" src="assets/images/food1.png" />
+                <h3>Food</h3>
+            </div>
+          </a>
+        </div>
+        
+        <div class="column">
+          <a class="card-link" href="#" onclick="toilet_audio_play()">
+            <div class="card">
+                <img class="img-responsive" src="assets/images/toilet.png" />
+                <audio style="display: none;" id="toilet-audio" src="toilet.mp3"></audio>
+                <h3>Toilet</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <a class="card-link" href="water.html">
+            <div class="card">
+                <img class="img-responsive" src="assets/images/water1.png" />
+                <h3>Water</h3>
+            </div>
+          </a>
+        </div>
+      
+        <div class="column">
+          <a class="card-link" href="https://music.youtube.com/watch?v=KqwuAdfS93c&list=RDAMVMKqwuAdfS93c">
+            <div class="card">
+                <img class="img-responsive" src="assets/images/music.png" />
+                <h3>Music</h3>
+            </div>
+          </a>
+        </div>
+        
+        <div class="column">
+          <a class="card-link" href="medicine.html">
+            <div class="card">
+                <img class="img-responsive" src="assets/images/medicine.png" />
+                <h3>Medical Issues</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toilet_audio_play() {
+        var audio = document.getElementById("toilet-audio");
+        audio.play();
+      }
+    </script>
+</body>
+</html>
