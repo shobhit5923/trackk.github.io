@@ -77,14 +77,12 @@ h3{
   width: 210px;
 }
 
-.form label{
+/* .form label{
   display: inline-block;
   text-align: right;
   float: left;
-}
+} */
 
 .form input{
-  display: inline-block;
-  text-align: left;
-  float: right;
+  margin-bottom: 10px;
 }

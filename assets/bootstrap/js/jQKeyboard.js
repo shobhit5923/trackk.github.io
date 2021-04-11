@@ -83,7 +83,7 @@
         container.setAttribute('id', 'jQKeyboardContainer');
         container.setAttribute('name', 'keyboardContainer' + activeInput.keyboardType);
         
-        $('body').append(container);
+        $('div.main').append(container);
     }
     
     /*
