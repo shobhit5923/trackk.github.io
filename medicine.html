@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Medical Issues</title>
+    <title>Issues</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
@@ -17,6 +17,38 @@
   <div class="container">
     <h1 class="heading">Medical Help</h1>
     <div class="row">
+        <div class="column">
+          <a class="card-link" href="#" onclick="emergency_audio_play()">
+          <form action= "/medicine" method="POST">
+            <div class="card">
+            <img class="img-responsive" src="assets/images/emer.jpg" />
+            <audio style="display: none;" id="emergency-audio" src="emergency.mp3"></audio>
+            <h3>Emergency Call</h3>
+          </div>
+        </form>
+          </a>
+        </div>
+      
+        <div class="column">
+          <a class="card-link" href="#" onclick="medicine_audio_play()">
+            <div class="card">
+                <img class="img-responsive" src="assets/images/med.jpg" />
+                <audio style="display: none;" id="medicine-audio" src="medicine.mp3"></audio>
+                <h3>Take medicine</h3>
+            </div>
+          </a>
+        </div>
+        
+        <div class="column">
+          <a class="card-link" href="quick_message.html">
+            <div class="card">
+                <img class="img-responsive" src="assets/images/quick_message.png" />
+                <h3>Quick Messages</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
         <div class="column">
           <a class="card-link" href="#" onclick="emergency_audio_play()">
           <form action= "/medicine" method="POST">
