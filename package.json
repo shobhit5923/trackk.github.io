@@ -4,7 +4,7 @@
     "express": "^4.17.1",
     "nodemailer": "^6.6.0"
   },
-  "version": "1",
+  "version": "1.0.0",
   "name": "application",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.57",
