@@ -35,17 +35,17 @@ async function mail() {
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "<admin@gmail.com>",
-            pass: "<password>"
+            user: "<goyalshobhit0990@gmail.com>",
+            pass: "<shobhit*123>"
         }
     });
 
     const mailOptions = {
-        from: '"Emergency " admin@gmail.com', // sender address
-        to: "sender1@gmail.com , ", // list of receivers devshobhit@gmail.com, shaktigill1356@gmail.com, rgadoo_be18@thapar.edu
+        from: '"Emergency " goyalshobhit0990@gmail.com', // sender address
+        to: "devshobhit@gmail.com , divyant3007@gmail.com ", // list of receivers devshobhit@gmail.com, shaktigill1356@gmail.com, rgadoo_be18@thapar.edu
         subject: "EMERGENCY", // Subject line
-        text: "ALERT", // plain text body
-        html: "<b>Hello world?</b>", // html body
+        text: "ALERT! Call 100/102.", // plain text body
+        html: "Emergency Alert!! ", // html body
     };
 
     transporter.sendMail(mailOptions, function (err, info) {
