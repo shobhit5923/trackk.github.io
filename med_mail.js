@@ -3,7 +3,7 @@ const nodemailer = require("nodemailer");
 const express = require('express');
 const app = express();
 const path = require("path");
-const PORT=5000
+const PORT = 5000
 app.use(express.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, "/trackk.github.io"));
